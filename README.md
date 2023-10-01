@@ -12,6 +12,10 @@ El bot es entrenado y alimentado con el contenido del documento https://babel.ba
 
 Simplemente escriba su pregunta en el campo de entrada y el bot proporcionará una respuesta basada en el contenido entrenado.
 
+## Nota Importante
+
+El archivo `banrep.md` en la carpeta `banrep_content` se proporciona solo para referencia y entender cómo se generaron los índices en `faiss_index`. No es necesario para el funcionamiento del bot, ya que los índices en `faiss_index` ya representan el contenido de este archivo.
+
 ## Contribuir
 
 Las contribuciones son bienvenidas. Siéntase libre de abrir un issue o crear un pull request.
