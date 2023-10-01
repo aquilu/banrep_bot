@@ -34,7 +34,7 @@ for message in st.session_state.messages:
             st.markdown(message["content"])
 
 # Lógica del chat
-if query := st.chat_input("Pregúntame cualquier cosa"):  # Cambiado a español
+if query := st.chat_input("Pregúntame sobre la historia del Banco de la República "):  # Texto de la caja del chat
     # Agregar mensaje del usuario al historial del chat
     st.session_state.messages.append({"role": "user", "content": query})
     # Mostrar mensaje del usuario en el contenedor del chat
