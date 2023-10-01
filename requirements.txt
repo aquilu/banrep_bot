@@ -1,0 +1,6 @@
+openai
+langchain
+faiss-cpu
+tiktoken
+unstructured
+markdown
